@@ -1,6 +1,6 @@
 # Folder include plugin for mkdocs
 
-This repo was forked from [mkdocs-include](https://github.com/RedisLabs/mkdocs-include) plugin.
+<!--This repo was forked from [mkdocs-include](https://github.com/RedisLabs/mkdocs-include) plugin.-->
 
 `mkdocs-include-folders` is a
 [mkdocs plugin](http://www.mkdocs.org/user-guide/plugins/) that allows you
