@@ -24,7 +24,7 @@ documents
       contact.md
       .....
 ```
-you may want to create a document including pages from the ``project1`` and ``shared_docs`` and present them in the same folder, this plugin will take documents from ``project1`` and ``shared-docs`` and place the im the same folder and also proritize files in ``project1`` over files in ``shered-docs`` if they have the same name.
+you may want to create a document including pages from the ``project1`` and ``shared-docs`` and present them in the same folder, this plugin will take documents from ``project1`` and ``shared-docs`` and place the im the same folder and also proritize files in ``project1`` over files in ``shered-docs`` if they have the same name.
    
 3. In your project, add a plugin configuration to `mkdocs.yml`:
    ```yaml
