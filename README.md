@@ -2,7 +2,7 @@
 
 This repo was forked from [mkdocs-include](https://github.com/RedisLabs/mkdocs-include) plugin.
 
-`mkdocs-include-folder` is a
+`mkdocs-include-folders` is a
 [mkdocs plugin](http://www.mkdocs.org/user-guide/plugins/) that allows you
 to include and prioritize folders from your input. 
 
