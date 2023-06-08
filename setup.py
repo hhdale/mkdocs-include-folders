@@ -9,7 +9,7 @@ def read(name):
 
 setuptools.setup(
     name='mkdocs-include-folders',
-    version='0.1.1',
+    version='0.1.2',
     packages=['mkdocs_include_folders'],
     url='https://github.com/hhdale/mkdocs-include-folders',
     license='Apache',
@@ -25,7 +25,7 @@ setuptools.setup(
     # Without them, mkdocs will not be able to recognize it.
     entry_points={
         'mkdocs.plugins': [
-            'include = mkdocs_include_folders:IncludeFolders',
+            'include-folders = mkdocs_include_folders:IncludeFolders',
         ]
     },
 )
