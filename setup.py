@@ -9,7 +9,7 @@ def read(name):
 
 setuptools.setup(
     name='mkdocs-include-folders',
-    version='0.1.0',
+    version='0.1.1',
     packages=['mkdocs_include_folders'],
     url='https://github.com/hhdale/mkdocs-include-folders',
     license='Apache',
