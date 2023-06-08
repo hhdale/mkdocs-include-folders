@@ -8,9 +8,9 @@ import mkdocs.structure.files
 class IncludeFolders(mkdocs.plugins.BasePlugin):
     """A mkdocs plugin that prioritizes and adds all matching files and folders from the input list."""
 
-    #config_scheme = (
-    #    ('priority_path', mkdocs.config.config_options.Type((str, list), default=None))
-    #)
+    config_scheme = [
+        ('priority_path', mkdocs.config.config_options.Type((str, list), default=None))
+    ]
 
     def on_files(self, files, config):
         paths = self.config['priority_path'] or []
