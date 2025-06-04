@@ -21,6 +21,9 @@ class IncludeFolders(mkdocs.plugins.BasePlugin):
         
         def prioritize_files(path):
             for f in files:
+                # normalize path divider changing to linux '/' instead of windows '\'
+                f.abs_src_path = os.path.normpath(f.abs_src_path)
+                f.abs_dest_path = os.path.normpath(f.abs_dest_path)
                 if fnmatch.fnmatchcase(f.src_uri,path):
                     # strip the path name from the files and skip file if an identical name is already added to docfiles
                     index = re.sub(path,"",f.url)
